@@ -20,11 +20,5 @@ class Login():
       password_field.clear()
       password_field.send_keys(password)
 
-
- # def set_remember(self,remember):
-  #    self.driver.find_element(*self.checkbox_remember)
-  #    if checkbox.is_selected() != remember:
- #         checkbox.click()
-
   def set_login(self):
       self.driver.find_element(*self.click_login).click()
