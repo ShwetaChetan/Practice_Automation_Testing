@@ -4,9 +4,9 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from webdriver_manager.chrome import ChromeDriverManager
-from test.Login_page import Login
-from test.Layout_One import Layout
-from test.Layout_Two import LayoutTwo
+from test.page_object.Login_page import Login
+from test.login_test.Layout_One import Layout
+from test.login_test.Layout_Two import LayoutTwo
 
 
 @pytest.fixture()
